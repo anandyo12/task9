@@ -1,0 +1,5 @@
+<div>
+            <h1 style="color: red; ">belajar web dev</h1>
+            <p style="font-size: 24px">aku ganteng</p>
+            <a href="https://dumbways.id">Click here</a>
+        </div>
