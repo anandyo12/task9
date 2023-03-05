@@ -31,7 +31,7 @@ function submitData(){
 
     // <a href="mailto:hallo@dw.com?subject=hallo samsul&body=isi pesan">Send email</a>
  
-    let emailReceiver = "hallo@dw.com"
+    let emailReceiver = "anandyo0712@gmail.com"
 
     let a = document.createElement('a')
     a.href = `mailto:${emailReceiver}?subject=${subject}&body=Hallo nama saya ${name}, ${message}, silahkan kontak ke nomor ${phone}`

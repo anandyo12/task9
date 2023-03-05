@@ -1,0 +1,148 @@
+
+/* navbar start
+========================================================= */
+
+.navbar{
+    background-color: white;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 5px 10px rgb(217, 217, 217);
+}
+
+.navbar img{
+    width: 50px;
+}
+
+.nav-left{
+    padding-right: 20px;
+    width: 100%;
+}
+
+.nav-left a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav-left ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+ }
+
+ .nav-left ul li{
+   padding-left: 40px;
+  
+ }
+
+ .nav-right{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    align-items: center;
+    padding-right: 50px;
+ 
+ }
+ 
+ .nav-right a{
+    background-color: rgb(13, 12, 12);
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+ }
+
+ .nav-right a:hover{
+    font-size: 120%;
+    background-color: coral;
+    transition: 0.3s;
+ }
+
+ .hamburger-nav-container{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(154, 154, 154);
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    display: none;
+}
+
+#bars-menu{
+    
+    display: none;
+    background-color: aqua;
+}
+.hamburger-nav-container a{
+    text-decoration: none;
+    color: white;
+    
+
+}
+.hamburger-nav-container a{
+    text-decoration: none;
+    color: white;
+}
+
+/* end of navbar
+====================================== */
+
+@media only screen and (max-width: 736px) {
+    .hamburger-icon{
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+    }
+    #bars-menu{
+        height: fit-content;
+        display: block;
+        border: 0;
+        background-color: white;
+        transition: transform .2s;
+    }
+    #bars-menu:hover{
+        transform: scale(1.2);
+        
+    }
+    .hamburger-nav-container a{
+        text-decoration: none;
+        color: white;
+        padding: 5px;
+    }
+    .hamburger-nav-container a:hover{
+        background-color: #181823;
+    }
+    .hamburger-nav-container a{
+        text-decoration: none;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    .hamburger-nav-container{
+        height: fit-content;
+        
+        background-color: rgb(154, 154, 154);
+        align-items: center;
+        border: 1px solid #fff;
+        text-decoration: none;
+        display: none;
+        text-align: center;
+    }
+    .navbar{
+        background-color: white;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0px 5px 10px rgb(217, 217, 217);
+    }
+    .home, .project, .contact-btn{
+        display: none
+    }
+    .nav-left ul li{
+        padding-left: 0px;
+       
+      }
+}

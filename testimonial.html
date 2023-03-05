@@ -2,7 +2,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Testimonials</title>
-        <link rel="stylesheet" href="assets/css/testimoni.css" />
+        <link rel="stylesheet" href="assets/css/testimoni.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -53,32 +53,32 @@
             <div class="container-rating">
                 <h2>Rate by Star</h2>
                 <div class="rating">
-                    <button class="rating-btn" onclick="allTestimonials()">
+                    <button class="rating-btn" onclick="getAllTestimonials()">
                     All
                     </button>
-                    <button class="rating-btn" onclick="filterTestimonials(1)">
+                    <button class="rating-btn" onclick="getFilteredTestimonial(1)">
                     1
                     </button>
-                    <button class="rating-btn" onclick="filterTestimonials(2)">
+                    <button class="rating-btn" onclick="getFilteredTestimonial(2)">
                     2
                     </button>
-                    <button class="rating-btn" onclick="filterTestimonials(3)">
+                    <button class="rating-btn" onclick="getFilteredTestimonial(3)">
                     3
                     </button>
-                    <button class="rating-btn" onclick="filterTestimonials(4)">
+                    <button class="rating-btn" onclick="getFilteredTestimonial(4)">
                     4
                     </button>
-                    <button class="rating-btn" onclick="filterTestimonials(5)">
+                    <button class="rating-btn" onclick="getFilteredTestimonial(5)">
                     5
                     </button>
                 </div>
             </div>
+            <div id="testimonials">
 
-            <section class="testimonials" id="testimonials">
-                
-            </section>
+            </div>
+           
         </div>
-        <script src="assets/js/index.js"></script>
-        <script src="assets/js/testimoni.js"></script>
     </body>
+    <script src="assets/js/ajax.js"></script>
+    <script src="assets/js/hamburger.js"></script>
 </html>
