@@ -1,7 +1,7 @@
 
 /* navbar start
 ========================================================= */
-
+/*
 .navbar{
     background-color: white;
     margin: 0;
@@ -89,7 +89,7 @@
 
 /* end of navbar
 ====================================== */
-
+/*
 @media only screen and (max-width: 736px) {
     .hamburger-icon{
         display: flex;
@@ -145,4 +145,4 @@
         padding-left: 0px;
        
       }
-}
+} */
